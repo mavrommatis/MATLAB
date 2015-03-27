@@ -1,10 +1,8 @@
-# MATLAB
+# Bayesian inference
 
-This directory contains several MATLAB scripts that I've written throughout the course of my Ph.D. So far, I've added the following codes:
+## Markov-chain Monte Carlo (mcmc.m)
 
-## MCMC
-
-This code performs Marcov Chain Monte Carlo (MCMC) sampling for Bayesian inference using uniform and/or Gaussian priors. The code estimates model parameters x given data d and the model
+This code implements a [Markov Chain Monte Carlo](http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) (MCMC) sampling method using [the Metropolis-Hastings](http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm) algorithm. The code allows for  uniform or Gaussian priors in the unknown model parameters. The code estimates model parameters x given data d and the model
  
  y = f(x) + ε 
 
