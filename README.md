@@ -6,7 +6,7 @@ This code implements a [Markov chain Monte Carlo](http://en.wikipedia.org/wiki/M
  
  y = f(x) + ε 
 
-where f is the model function and ε are Gaussian errors, ε ~ N(0,Σ) with covariance matrix Σ. The function f can be either linear or nonlinear in x. In the case of Gaussian prior, we have 
+where f is the model function and ε are Gaussian errors, ε ~ N(0,Σ) with covariance matrix Σ. The function f can be either linear or nonlinear in x. The code allows for Gaussian prior distribution in the model parameters,  
 
 x ~ N(x_p,C)
 
