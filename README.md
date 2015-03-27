@@ -10,4 +10,4 @@ where f is the model function and ε are Gaussian errors, ε ~ N(0,Σ) with cova
 
 x ~ N(x_p,C)
 
-with x_p and C being the mean vector and covariance matrix for the normal distribution, respectively.
+with x_p and C being the mean vector and covariance matrix, respectively.
