@@ -1,6 +1,6 @@
 # Bayesian inference
 
-## Markov chain Monte Carlo (mcmc.m)
+## mcmc.m: Markov chain Monte Carlo sampling
 
 This code implements a [Markov chain Monte Carlo](http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) (MCMC) sampling method using the [Metropolis-Hastings](http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm) algorithm. The code allows for  uniform or Gaussian priors in the unknown model parameters. The code estimates model parameters x given data d and the model
  
